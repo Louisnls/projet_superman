@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+
 html{ 
     font-size: 62.5%;  
 }
@@ -9,11 +11,8 @@ body{
     background-color: var(--body-color);
     letter-spacing: .1rem;
     line-height: 1.6;
-    
 }
-.material-symbols-outlined{
-    vertical-align: middle;
-}
+
 img{
     display: inline-block;
     vertical-align: middle;
@@ -27,9 +26,13 @@ h1,h2,h3,h4,p,ol,ul,figure,dd{
 }
 
 :root{
-    --color-default: #222;
     --color-main: #e9e9e9;
     --color-text-header: #fff;
+    --bgcolor-header:#005a78;
+    --bgcolor-body : #52a0bd;
+    --bgcolor-blue-button: #1d71aa;
+    --bgcolor-red-button: #c0392b;
+    --bgcolor-green-button: #166a3d;
 }
 img{
     display: inline-block;
@@ -38,8 +41,7 @@ img{
     vertical-align: middle;
     object-fit: cover;
 }
-footer{
-    padding: 1.6rem;
-    text-align: center;
-    color: var(--color-text-header);
-}
+
+
+
+
