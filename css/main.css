@@ -104,6 +104,7 @@ section  {
  background-color: #fff;
 }
 
+/* couleur background des buttons*/
 .button.Rechercher{
     background-color: var(--bgcolor-blue-button);
 }
@@ -115,6 +116,8 @@ section  {
 .button.add-to-basket{
     background-color: var(--bgcolor-green-button);
 }
+
+
 
 footer{
     background-color: var(--bgcolor-block);
