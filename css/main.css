@@ -3,13 +3,14 @@
 
 html{ 
     font-size: 62.5%;  
+    background-color: var(--bgcolor-body);
 }
 body{
     font: 1.6rem "Roboto",sans-serif;
     margin: 0;
     color: var(--default-color);
-    background-color: var(--body-color);
-    letter-spacing: .1rem;
+    background-color: var(--bgcolor-body);
+    letter-spacing: 0.1rem;
     line-height: 1.6;
 }
 
@@ -45,10 +46,38 @@ img{
 
 header h1 {
     font-family: 'Lobster', cursive;
-    background-color: #005a78;
+    background-color: var(--bgcolor-header);
     color: #fff;
     padding : 1rem;
     text-align: center;
+}
+
+main, figure{
+    background-color: #fff;
+    max-width: 70rem;
+    margin: 1rem auto;
+    padding: 0.5rem;
+}
+
+section, footer {
+    background-color: var(--body-color);
+    max-width: 70rem;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+section h2, figure h2{
+    font-family: 'Lobster', cursive;
+    color: var(--bgcolor-header);
+    text-align: center;
+    
+} 
+
+
+section ul li {
+    display: inline-block;
+
 }
 
 footer{
