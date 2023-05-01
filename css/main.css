@@ -61,7 +61,7 @@ main figure{
     padding: 1rem;
 }
 
- figure h2, figure h2{
+figure h2{
     font-family: 'Lobster', cursive;
     color: var(--bgcolor-header);
     text-align: justify;    
