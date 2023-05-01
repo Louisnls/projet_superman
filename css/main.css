@@ -1,3 +1,4 @@
+/* reset css */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
 
 
@@ -34,6 +35,7 @@ h1,h2,h3,h4,p,ol,ul,figure,dd{
     --bgcolor-blue-button: #1d71aa;
     --bgcolor-red-button: #c0392b;
     --bgcolor-green-button: #166a3d;
+    --bgcolor-block: #2c3e50;
 }
 img{
     display: inline-block;
@@ -43,7 +45,7 @@ img{
     object-fit: cover;
 }
 
-
+/* theme */
 header h1 {
     font-family: 'Lobster', cursive;
     background-color: var(--bgcolor-header);
@@ -52,37 +54,70 @@ header h1 {
     text-align: center;
 }
 
-main, figure{
+main figure{
     background-color: #fff;
-    max-width: 70rem;
+    max-width: 80rem;
     margin: 1rem auto;
-    padding: 0.5rem;
+    padding: 1rem;
+}
+
+ figure h2, figure h2{
+    font-family: 'Lobster', cursive;
+    color: var(--bgcolor-header);
+    text-align: justify;    
+}
+ 
+figcaption h2, figcaption  p{
+    text-align: center;
+}
+
+figcaption h2, figcaption ul li {
+    padding:1rem;
+}
+figcaption ul li {
+    background-color: var(--bgcolor-block);
+    color : #fff;
+    margin: .1rem;
 }
 
 section, footer {
     background-color: var(--body-color);
-    max-width: 70rem;
-    margin: auto;
+    max-width: 80rem;
+    margin: 1rem auto;
     padding: 1rem;
     text-align: center;
 }
 
-section h2, figure h2{
-    font-family: 'Lobster', cursive;
-    color: var(--bgcolor-header);
-    text-align: center;
+/* style button */
+.button{
+    color : #fff;
+    padding-inline: 5rem;
+    border-width: 0.2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    line-height: 4rem;
     
-} 
+}
 
+section  {
+ background-color: #fff;
+}
 
-section ul li {
-    display: inline-block;
+.button.Rechercher{
+    background-color: var(--bgcolor-blue-button);
+}
 
+.button.drop-basket{
+    background-color: var(--bgcolor-red-button);
+}
+
+.button.add-to-basket{
+    background-color: var(--bgcolor-green-button);
 }
 
 footer{
-    padding: 1.6rem;
-    text-align: center;
-    color: var(--color-text-header);
+    background-color: var(--bgcolor-block);
+    color : #fff;
 }
 
