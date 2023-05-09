@@ -54,14 +54,14 @@ header h1 {
     text-align: center;
 }
 
-main figure{
+main div{
     background-color: #fff;
     max-width: 80rem;
     margin: 1rem auto;
     padding: 1rem;
 }
 
-figure h2{
+div h2{
     font-family: 'Lobster', cursive;
     color: var(--bgcolor-header);
     text-align: justify;    
