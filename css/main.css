@@ -54,14 +54,14 @@ header h1 {
     text-align: center;
 }
 
-main div{
+main section{
     background-color: #fff;
     max-width: 80rem;
     margin: 1rem auto;
     padding: 1rem;
 }
 
-div h2{
+section h2{
     font-family: 'Lobster', cursive;
     color: var(--bgcolor-header);
     text-align: justify;    
@@ -80,7 +80,7 @@ figcaption ul li {
     margin: .1rem;
 }
 
-section, footer {
+aside, footer {
     background-color: var(--body-color);
     max-width: 80rem;
     margin: 1rem auto;
@@ -100,7 +100,7 @@ section, footer {
     
 }
 
-section  {
+aside  {
  background-color: #fff;
 }
 
